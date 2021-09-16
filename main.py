@@ -1,16 +1,11 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from mymath import fib, fib_l, fib_m
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def main():
+    print(f'result of {fib.__name__}(10): {fib(10)}')
+    print(f'result of {fib_l.__name__}(10): {fib_l(10)}')
+    print(f'result of {fib_m.__name__}(10): {fib_m(10)}')
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()

@@ -13,9 +13,9 @@
 
 
 # sampleB.pyの中のaddという関数だけをインポートする
-from sampleB import add
+# from sampleB import add
 
-print(add(2, 3))
+# print(add(2, 3))
 
 
 # sampleB.pyの中のaddという関数だけをインポートし、BBという名前をつける
